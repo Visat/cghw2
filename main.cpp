@@ -280,7 +280,7 @@ int main(int argc, char *argv[])
 	// For Mac OS X
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-	window = glfwCreateWindow(800, 600, "Simple Example", NULL, NULL);
+	window = glfwCreateWindow(800, 600, "F74029012 HW2", NULL, NULL);
 	if (!window)
 	{
 		glfwTerminate();
